@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47EF3A1A23AB31BD00B13F9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A1923AB31BD00B13F9B /* AppDelegate.swift */; };
+		47EF3A2123AB31BD00B13F9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EF3A1F23AB31BD00B13F9B /* Main.storyboard */; };
+		47EF3A2423AB31BD00B13F9B /* AyerERP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A2223AB31BD00B13F9B /* AyerERP.xcdatamodeld */; };
+		47EF3A2623AB31C200B13F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EF3A2523AB31C200B13F9B /* Assets.xcassets */; };
+		47EF3A2923AB31C200B13F9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EF3A2723AB31C200B13F9B /* LaunchScreen.storyboard */; };
+		47EF3A7923AB3C8100B13F9B /* CustomerManageProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A3223AB3C7B00B13F9B /* CustomerManageProductViewController.swift */; };
+		47EF3A7A23AB3C8100B13F9B /* CustomerManageCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A3323AB3C7B00B13F9B /* CustomerManageCategoryViewController.swift */; };
+		47EF3A7B23AB3C8100B13F9B /* ManageUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A3423AB3C7B00B13F9B /* ManageUnitViewController.swift */; };
+		47EF3A7C23AB3C8100B13F9B /* ManageInactiveCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A3523AB3C7B00B13F9B /* ManageInactiveCustomerViewController.swift */; };
+		47EF3A7D23AB3C8100B13F9B /* ManageCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A3623AB3C7B00B13F9B /* ManageCustomerViewController.swift */; };
+		47EF3A7E23AB3C8100B13F9B /* SupplierReturnListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A3723AB3C7B00B13F9B /* SupplierReturnListViewController.swift */; };
+		47EF3A7F23AB3C8100B13F9B /* ManageCustomerUpdateApplicantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A3823AB3C7B00B13F9B /* ManageCustomerUpdateApplicantsViewController.swift */; };
+		47EF3A8023AB3C8100B13F9B /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A3923AB3C7B00B13F9B /* ActionButton.swift */; };
+		47EF3A8123AB3C8100B13F9B /* ShippingCostReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A3A23AB3C7B00B13F9B /* ShippingCostReportViewController.swift */; };
+		47EF3A8223AB3C8100B13F9B /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A3B23AB3C7B00B13F9B /* CheckOutViewController.swift */; };
+		47EF3A8323AB3C8100B13F9B /* categoryWisePurchaseReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A3C23AB3C7B00B13F9B /* categoryWisePurchaseReportViewController.swift */; };
+		47EF3A8423AB3C8100B13F9B /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A3D23AB3C7C00B13F9B /* CheckInternet.swift */; };
+		47EF3A8523AB3C8100B13F9B /* ManageTaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A3E23AB3C7C00B13F9B /* ManageTaxViewController.swift */; };
+		47EF3A8623AB3C8100B13F9B /* CustomerManageCartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A3F23AB3C7C00B13F9B /* CustomerManageCartVC.swift */; };
+		47EF3A8723AB3C8100B13F9B /* RoleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A4023AB3C7C00B13F9B /* RoleListViewController.swift */; };
+		47EF3A8923AB3C8100B13F9B /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A4223AB3C7C00B13F9B /* UpdateProfileViewController.swift */; };
+		47EF3A8A23AB3C8100B13F9B /* ManageQuotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A4323AB3C7C00B13F9B /* ManageQuotationViewController.swift */; };
+		47EF3A8B23AB3C8100B13F9B /* TodaysCustomerReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A4423AB3C7C00B13F9B /* TodaysCustomerReportViewController.swift */; };
+		47EF3A8C23AB3C8100B13F9B /* ManageUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A4523AB3C7C00B13F9B /* ManageUsersViewController.swift */; };
+		47EF3A8D23AB3C8100B13F9B /* AddUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A4623AB3C7C00B13F9B /* AddUsersViewController.swift */; };
+		47EF3A8E23AB3C8100B13F9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A4723AB3C7C00B13F9B /* SceneDelegate.swift */; };
+		47EF3A8F23AB3C8100B13F9B /* DueReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A4823AB3C7C00B13F9B /* DueReportViewController.swift */; };
+		47EF3A9023AB3C8100B13F9B /* ClosingReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A4923AB3C7D00B13F9B /* ClosingReportViewController.swift */; };
+		47EF3A9123AB3C8100B13F9B /* CustomerReceiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A4A23AB3C7D00B13F9B /* CustomerReceiveViewController.swift */; };
+		47EF3A9223AB3C8100B13F9B /* ForCoreDataMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A4B23AB3C7D00B13F9B /* ForCoreDataMethods.swift */; };
+		47EF3A9323AB3C8100B13F9B /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A4C23AB3C7D00B13F9B /* ChangePasswordViewController.swift */; };
+		47EF3A9423AB3C8100B13F9B /* CashBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A4D23AB3C7D00B13F9B /* CashBookViewController.swift */; };
+		47EF3A9523AB3C8100B13F9B /* CustomerManageOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A4E23AB3C7D00B13F9B /* CustomerManageOrderViewController.swift */; };
+		47EF3A9623AB3C8100B13F9B /* CustomerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A4F23AB3C7D00B13F9B /* CustomerHomeViewController.swift */; };
+		47EF3A9723AB3C8100B13F9B /* OutOfStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5023AB3C7D00B13F9B /* OutOfStockViewController.swift */; };
+		47EF3A9823AB3C8100B13F9B /* PurchaseReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5123AB3C7D00B13F9B /* PurchaseReportViewController.swift */; };
+		47EF3A9923AB3C8100B13F9B /* ProductWiseSalesReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5223AB3C7D00B13F9B /* ProductWiseSalesReportViewController.swift */; };
+		47EF3A9A23AB3C8100B13F9B /* StringExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5323AB3C7D00B13F9B /* StringExtention.swift */; };
+		47EF3A9B23AB3C8100B13F9B /* UpdateSttingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5423AB3C7E00B13F9B /* UpdateSttingsViewController.swift */; };
+		47EF3A9C23AB3C8100B13F9B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5523AB3C7E00B13F9B /* SignUpViewController.swift */; };
+		47EF3A9D23AB3C8100B13F9B /* ManageNewApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5623AB3C7E00B13F9B /* ManageNewApplicationViewController.swift */; };
+		47EF3A9E23AB3C8100B13F9B /* CustomerLedgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5723AB3C7E00B13F9B /* CustomerLedgerViewController.swift */; };
+		47EF3A9F23AB3C8100B13F9B /* ActionButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5823AB3C7E00B13F9B /* ActionButtonItem.swift */; };
+		47EF3AA023AB3C8100B13F9B /* ForWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5923AB3C7E00B13F9B /* ForWebViewController.swift */; };
+		47EF3AA123AB3C8100B13F9B /* RecentInvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5A23AB3C7E00B13F9B /* RecentInvoiceViewController.swift */; };
+		47EF3AA223AB3C8100B13F9B /* WastageReturnListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5B23AB3C7E00B13F9B /* WastageReturnListViewController.swift */; };
+		47EF3AA323AB3C8100B13F9B /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5C23AB3C7E00B13F9B /* AddCategoryViewController.swift */; };
+		47EF3AA423AB3C8100B13F9B /* InventoryLedgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5D23AB3C7E00B13F9B /* InventoryLedgerViewController.swift */; };
+		47EF3AA523AB3C8100B13F9B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5E23AB3C7E00B13F9B /* LoginViewController.swift */; };
+		47EF3AA623AB3C8100B13F9B /* SalesReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A5F23AB3C7F00B13F9B /* SalesReportViewController.swift */; };
+		47EF3AA723AB3C8100B13F9B /* ManagePurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6023AB3C7F00B13F9B /* ManagePurchaseViewController.swift */; };
+		47EF3AA823AB3C8100B13F9B /* ProductWiseStockReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6123AB3C7F00B13F9B /* ProductWiseStockReportViewController.swift */; };
+		47EF3AA923AB3C8100B13F9B /* TodaysReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6223AB3C7F00B13F9B /* TodaysReportViewController.swift */; };
+		47EF3AAA23AB3C8100B13F9B /* ManageProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6323AB3C7F00B13F9B /* ManageProductViewController.swift */; };
+		47EF3AAB23AB3C8100B13F9B /* CustomerInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6423AB3C7F00B13F9B /* CustomerInformationViewController.swift */; };
+		47EF3AAC23AB3C8100B13F9B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6523AB3C7F00B13F9B /* HomeViewController.swift */; };
+		47EF3AAD23AB3C8100B13F9B /* SupplierwiseStockReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6623AB3C7F00B13F9B /* SupplierwiseStockReportViewController.swift */; };
+		47EF3AAE23AB3C8100B13F9B /* CustomerManageMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6723AB3C7F00B13F9B /* CustomerManageMessageViewController.swift */; };
+		47EF3AAF23AB3C8100B13F9B /* StockReturnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6823AB3C7F00B13F9B /* StockReturnViewController.swift */; };
+		47EF3AB023AB3C8100B13F9B /* SlideMenuSubListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6923AB3C7F00B13F9B /* SlideMenuSubListsViewController.swift */; };
+		47EF3AB123AB3C8100B13F9B /* CategoryWiseSalesReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6A23AB3C7F00B13F9B /* CategoryWiseSalesReportViewController.swift */; };
+		47EF3AB223AB3C8100B13F9B /* ManageInvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6B23AB3C8000B13F9B /* ManageInvoiceViewController.swift */; };
+		47EF3AB323AB3C8100B13F9B /* MainScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6C23AB3C8000B13F9B /* MainScrollViewController.swift */; };
+		47EF3AB423AB3C8100B13F9B /* ManageMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6D23AB3C8000B13F9B /* ManageMessagesViewController.swift */; };
+		47EF3AB523AB3C8100B13F9B /* CustomerSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6E23AB3C8000B13F9B /* CustomerSupportViewController.swift */; };
+		47EF3AB623AB3C8100B13F9B /* PaidCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A6F23AB3C8000B13F9B /* PaidCustomerViewController.swift */; };
+		47EF3AB723AB3C8100B13F9B /* UserAssignRoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A7023AB3C8000B13F9B /* UserAssignRoleViewController.swift */; };
+		47EF3AB823AB3C8100B13F9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A7123AB3C8000B13F9B /* ViewController.swift */; };
+		47EF3AB923AB3C8100B13F9B /* CreditCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A7223AB3C8000B13F9B /* CreditCustomerViewController.swift */; };
+		47EF3ABA23AB3C8100B13F9B /* ManageActiveCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A7323AB3C8000B13F9B /* ManageActiveCustomerViewController.swift */; };
+		47EF3ABB23AB3C8100B13F9B /* StockReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A7423AB3C8000B13F9B /* StockReportViewController.swift */; };
+		47EF3ABC23AB3C8100B13F9B /* MainHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A7523AB3C8000B13F9B /* MainHomeViewController.swift */; };
+		47EF3ABD23AB3C8100B13F9B /* ClosingAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A7623AB3C8000B13F9B /* ClosingAccountViewController.swift */; };
+		47EF3ABE23AB3C8100B13F9B /* ManageCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A7723AB3C8000B13F9B /* ManageCategoryViewController.swift */; };
+		47EF3ABF23AB3C8100B13F9B /* ManageSupplierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF3A7823AB3C8100B13F9B /* ManageSupplierViewController.swift */; };
+		47FA97B423AE3E10007AC34F /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FA97B323AE3E0E007AC34F /* SuccessViewController.swift */; };
+		55D5F21895D71EC365AB4F10 /* Pods_AyerERP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C63FEB0A0A0F0E22E74E0C /* Pods_AyerERP.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AC05CFF37EA32107237ADA4 /* Pods-AyerERP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AyerERP.release.xcconfig"; path = "Target Support Files/Pods-AyerERP/Pods-AyerERP.release.xcconfig"; sourceTree = "<group>"; };
+		36C63FEB0A0A0F0E22E74E0C /* Pods_AyerERP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AyerERP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EF3A1623AB31BC00B13F9B /* AyerERP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AyerERP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EF3A1923AB31BD00B13F9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47EF3A2023AB31BD00B13F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47EF3A2323AB31BD00B13F9B /* AyerERP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AyerERP.xcdatamodel; sourceTree = "<group>"; };
+		47EF3A2523AB31C200B13F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47EF3A2823AB31C200B13F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47EF3A2A23AB31C200B13F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47EF3A3223AB3C7B00B13F9B /* CustomerManageProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerManageProductViewController.swift; sourceTree = "<group>"; };
+		47EF3A3323AB3C7B00B13F9B /* CustomerManageCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerManageCategoryViewController.swift; sourceTree = "<group>"; };
+		47EF3A3423AB3C7B00B13F9B /* ManageUnitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageUnitViewController.swift; sourceTree = "<group>"; };
+		47EF3A3523AB3C7B00B13F9B /* ManageInactiveCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageInactiveCustomerViewController.swift; sourceTree = "<group>"; };
+		47EF3A3623AB3C7B00B13F9B /* ManageCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageCustomerViewController.swift; sourceTree = "<group>"; };
+		47EF3A3723AB3C7B00B13F9B /* SupplierReturnListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupplierReturnListViewController.swift; sourceTree = "<group>"; };
+		47EF3A3823AB3C7B00B13F9B /* ManageCustomerUpdateApplicantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageCustomerUpdateApplicantsViewController.swift; sourceTree = "<group>"; };
+		47EF3A3923AB3C7B00B13F9B /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		47EF3A3A23AB3C7B00B13F9B /* ShippingCostReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShippingCostReportViewController.swift; sourceTree = "<group>"; };
+		47EF3A3B23AB3C7B00B13F9B /* CheckOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
+		47EF3A3C23AB3C7B00B13F9B /* categoryWisePurchaseReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = categoryWisePurchaseReportViewController.swift; sourceTree = "<group>"; };
+		47EF3A3D23AB3C7C00B13F9B /* CheckInternet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
+		47EF3A3E23AB3C7C00B13F9B /* ManageTaxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageTaxViewController.swift; sourceTree = "<group>"; };
+		47EF3A3F23AB3C7C00B13F9B /* CustomerManageCartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerManageCartVC.swift; sourceTree = "<group>"; };
+		47EF3A4023AB3C7C00B13F9B /* RoleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoleListViewController.swift; sourceTree = "<group>"; };
+		47EF3A4223AB3C7C00B13F9B /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		47EF3A4323AB3C7C00B13F9B /* ManageQuotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageQuotationViewController.swift; sourceTree = "<group>"; };
+		47EF3A4423AB3C7C00B13F9B /* TodaysCustomerReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodaysCustomerReportViewController.swift; sourceTree = "<group>"; };
+		47EF3A4523AB3C7C00B13F9B /* ManageUsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageUsersViewController.swift; sourceTree = "<group>"; };
+		47EF3A4623AB3C7C00B13F9B /* AddUsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddUsersViewController.swift; sourceTree = "<group>"; };
+		47EF3A4723AB3C7C00B13F9B /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../CygenERP/CygenERP/SceneDelegate.swift; sourceTree = "<group>"; };
+		47EF3A4823AB3C7C00B13F9B /* DueReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DueReportViewController.swift; sourceTree = "<group>"; };
+		47EF3A4923AB3C7D00B13F9B /* ClosingReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosingReportViewController.swift; sourceTree = "<group>"; };
+		47EF3A4A23AB3C7D00B13F9B /* CustomerReceiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerReceiveViewController.swift; sourceTree = "<group>"; };
+		47EF3A4B23AB3C7D00B13F9B /* ForCoreDataMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForCoreDataMethods.swift; sourceTree = "<group>"; };
+		47EF3A4C23AB3C7D00B13F9B /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		47EF3A4D23AB3C7D00B13F9B /* CashBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashBookViewController.swift; sourceTree = "<group>"; };
+		47EF3A4E23AB3C7D00B13F9B /* CustomerManageOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerManageOrderViewController.swift; sourceTree = "<group>"; };
+		47EF3A4F23AB3C7D00B13F9B /* CustomerHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerHomeViewController.swift; sourceTree = "<group>"; };
+		47EF3A5023AB3C7D00B13F9B /* OutOfStockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutOfStockViewController.swift; sourceTree = "<group>"; };
+		47EF3A5123AB3C7D00B13F9B /* PurchaseReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseReportViewController.swift; sourceTree = "<group>"; };
+		47EF3A5223AB3C7D00B13F9B /* ProductWiseSalesReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductWiseSalesReportViewController.swift; sourceTree = "<group>"; };
+		47EF3A5323AB3C7D00B13F9B /* StringExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtention.swift; sourceTree = "<group>"; };
+		47EF3A5423AB3C7E00B13F9B /* UpdateSttingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateSttingsViewController.swift; sourceTree = "<group>"; };
+		47EF3A5523AB3C7E00B13F9B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		47EF3A5623AB3C7E00B13F9B /* ManageNewApplicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageNewApplicationViewController.swift; sourceTree = "<group>"; };
+		47EF3A5723AB3C7E00B13F9B /* CustomerLedgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerLedgerViewController.swift; sourceTree = "<group>"; };
+		47EF3A5823AB3C7E00B13F9B /* ActionButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonItem.swift; sourceTree = "<group>"; };
+		47EF3A5923AB3C7E00B13F9B /* ForWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForWebViewController.swift; sourceTree = "<group>"; };
+		47EF3A5A23AB3C7E00B13F9B /* RecentInvoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentInvoiceViewController.swift; sourceTree = "<group>"; };
+		47EF3A5B23AB3C7E00B13F9B /* WastageReturnListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WastageReturnListViewController.swift; sourceTree = "<group>"; };
+		47EF3A5C23AB3C7E00B13F9B /* AddCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+		47EF3A5D23AB3C7E00B13F9B /* InventoryLedgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryLedgerViewController.swift; sourceTree = "<group>"; };
+		47EF3A5E23AB3C7E00B13F9B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../CygenERP/CygenERP/LoginViewController.swift; sourceTree = "<group>"; };
+		47EF3A5F23AB3C7F00B13F9B /* SalesReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesReportViewController.swift; sourceTree = "<group>"; };
+		47EF3A6023AB3C7F00B13F9B /* ManagePurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagePurchaseViewController.swift; sourceTree = "<group>"; };
+		47EF3A6123AB3C7F00B13F9B /* ProductWiseStockReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductWiseStockReportViewController.swift; sourceTree = "<group>"; };
+		47EF3A6223AB3C7F00B13F9B /* TodaysReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodaysReportViewController.swift; sourceTree = "<group>"; };
+		47EF3A6323AB3C7F00B13F9B /* ManageProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageProductViewController.swift; sourceTree = "<group>"; };
+		47EF3A6423AB3C7F00B13F9B /* CustomerInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerInformationViewController.swift; sourceTree = "<group>"; };
+		47EF3A6523AB3C7F00B13F9B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		47EF3A6623AB3C7F00B13F9B /* SupplierwiseStockReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupplierwiseStockReportViewController.swift; sourceTree = "<group>"; };
+		47EF3A6723AB3C7F00B13F9B /* CustomerManageMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerManageMessageViewController.swift; sourceTree = "<group>"; };
+		47EF3A6823AB3C7F00B13F9B /* StockReturnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockReturnViewController.swift; sourceTree = "<group>"; };
+		47EF3A6923AB3C7F00B13F9B /* SlideMenuSubListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuSubListsViewController.swift; sourceTree = "<group>"; };
+		47EF3A6A23AB3C7F00B13F9B /* CategoryWiseSalesReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryWiseSalesReportViewController.swift; sourceTree = "<group>"; };
+		47EF3A6B23AB3C8000B13F9B /* ManageInvoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageInvoiceViewController.swift; sourceTree = "<group>"; };
+		47EF3A6C23AB3C8000B13F9B /* MainScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScrollViewController.swift; sourceTree = "<group>"; };
+		47EF3A6D23AB3C8000B13F9B /* ManageMessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageMessagesViewController.swift; sourceTree = "<group>"; };
+		47EF3A6E23AB3C8000B13F9B /* CustomerSupportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerSupportViewController.swift; sourceTree = "<group>"; };
+		47EF3A6F23AB3C8000B13F9B /* PaidCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaidCustomerViewController.swift; sourceTree = "<group>"; };
+		47EF3A7023AB3C8000B13F9B /* UserAssignRoleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAssignRoleViewController.swift; sourceTree = "<group>"; };
+		47EF3A7123AB3C8000B13F9B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../CygenERP/CygenERP/ViewController.swift; sourceTree = "<group>"; };
+		47EF3A7223AB3C8000B13F9B /* CreditCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCustomerViewController.swift; sourceTree = "<group>"; };
+		47EF3A7323AB3C8000B13F9B /* ManageActiveCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageActiveCustomerViewController.swift; sourceTree = "<group>"; };
+		47EF3A7423AB3C8000B13F9B /* StockReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockReportViewController.swift; sourceTree = "<group>"; };
+		47EF3A7523AB3C8000B13F9B /* MainHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainHomeViewController.swift; sourceTree = "<group>"; };
+		47EF3A7623AB3C8000B13F9B /* ClosingAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosingAccountViewController.swift; sourceTree = "<group>"; };
+		47EF3A7723AB3C8000B13F9B /* ManageCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageCategoryViewController.swift; sourceTree = "<group>"; };
+		47EF3A7823AB3C8100B13F9B /* ManageSupplierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageSupplierViewController.swift; sourceTree = "<group>"; };
+		47FA97B323AE3E0E007AC34F /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		E105FB6C3A36E22F5D4947CC /* Pods-AyerERP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AyerERP.debug.xcconfig"; path = "Target Support Files/Pods-AyerERP/Pods-AyerERP.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47EF3A1323AB31BC00B13F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D5F21895D71EC365AB4F10 /* Pods_AyerERP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47EF3A0D23AB31BC00B13F9B = {
+			isa = PBXGroup;
+			children = (
+				47EF3A1823AB31BC00B13F9B /* AyerERP */,
+				47EF3A1723AB31BC00B13F9B /* Products */,
+				AEC4E27B93412952727A8B01 /* Pods */,
+				4F7525B607F1E6749C0963BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47EF3A1723AB31BC00B13F9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47EF3A1623AB31BC00B13F9B /* AyerERP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47EF3A1823AB31BC00B13F9B /* AyerERP */ = {
+			isa = PBXGroup;
+			children = (
+				47EF3A5823AB3C7E00B13F9B /* ActionButtonItem.swift */,
+				47EF3A5C23AB3C7E00B13F9B /* AddCategoryViewController.swift */,
+				47EF3A4623AB3C7C00B13F9B /* AddUsersViewController.swift */,
+				47EF3A1923AB31BD00B13F9B /* AppDelegate.swift */,
+				47EF3A5F23AB3C7F00B13F9B /* SalesReportViewController.swift */,
+				47EF3A1F23AB31BD00B13F9B /* Main.storyboard */,
+				47EF3A3923AB3C7B00B13F9B /* ActionButton.swift */,
+				47EF3A4D23AB3C7D00B13F9B /* CashBookViewController.swift */,
+				47EF3A3C23AB3C7B00B13F9B /* categoryWisePurchaseReportViewController.swift */,
+				47EF3A6A23AB3C7F00B13F9B /* CategoryWiseSalesReportViewController.swift */,
+				47EF3A4C23AB3C7D00B13F9B /* ChangePasswordViewController.swift */,
+				47EF3A3D23AB3C7C00B13F9B /* CheckInternet.swift */,
+				47EF3A3B23AB3C7B00B13F9B /* CheckOutViewController.swift */,
+				47EF3A7623AB3C8000B13F9B /* ClosingAccountViewController.swift */,
+				47EF3A4923AB3C7D00B13F9B /* ClosingReportViewController.swift */,
+				47EF3A7223AB3C8000B13F9B /* CreditCustomerViewController.swift */,
+				47EF3A4F23AB3C7D00B13F9B /* CustomerHomeViewController.swift */,
+				47EF3A6423AB3C7F00B13F9B /* CustomerInformationViewController.swift */,
+				47EF3A5723AB3C7E00B13F9B /* CustomerLedgerViewController.swift */,
+				47EF3A3F23AB3C7C00B13F9B /* CustomerManageCartVC.swift */,
+				47EF3A3323AB3C7B00B13F9B /* CustomerManageCategoryViewController.swift */,
+				47EF3A6723AB3C7F00B13F9B /* CustomerManageMessageViewController.swift */,
+				47EF3A4E23AB3C7D00B13F9B /* CustomerManageOrderViewController.swift */,
+				47EF3A3223AB3C7B00B13F9B /* CustomerManageProductViewController.swift */,
+				47EF3A4A23AB3C7D00B13F9B /* CustomerReceiveViewController.swift */,
+				47EF3A6E23AB3C8000B13F9B /* CustomerSupportViewController.swift */,
+				47EF3A4823AB3C7C00B13F9B /* DueReportViewController.swift */,
+				47EF3A4B23AB3C7D00B13F9B /* ForCoreDataMethods.swift */,
+				47EF3A5923AB3C7E00B13F9B /* ForWebViewController.swift */,
+				47EF3A6523AB3C7F00B13F9B /* HomeViewController.swift */,
+				47EF3A5D23AB3C7E00B13F9B /* InventoryLedgerViewController.swift */,
+				47EF3A5E23AB3C7E00B13F9B /* LoginViewController.swift */,
+				47EF3A7523AB3C8000B13F9B /* MainHomeViewController.swift */,
+				47EF3A6C23AB3C8000B13F9B /* MainScrollViewController.swift */,
+				47EF3A7323AB3C8000B13F9B /* ManageActiveCustomerViewController.swift */,
+				47EF3A7723AB3C8000B13F9B /* ManageCategoryViewController.swift */,
+				47EF3A3823AB3C7B00B13F9B /* ManageCustomerUpdateApplicantsViewController.swift */,
+				47EF3A3623AB3C7B00B13F9B /* ManageCustomerViewController.swift */,
+				47EF3A3523AB3C7B00B13F9B /* ManageInactiveCustomerViewController.swift */,
+				47EF3A6B23AB3C8000B13F9B /* ManageInvoiceViewController.swift */,
+				47EF3A6D23AB3C8000B13F9B /* ManageMessagesViewController.swift */,
+				47EF3A5623AB3C7E00B13F9B /* ManageNewApplicationViewController.swift */,
+				47EF3A6323AB3C7F00B13F9B /* ManageProductViewController.swift */,
+				47EF3A6023AB3C7F00B13F9B /* ManagePurchaseViewController.swift */,
+				47EF3A4323AB3C7C00B13F9B /* ManageQuotationViewController.swift */,
+				47EF3A7823AB3C8100B13F9B /* ManageSupplierViewController.swift */,
+				47EF3A3E23AB3C7C00B13F9B /* ManageTaxViewController.swift */,
+				47EF3A3423AB3C7B00B13F9B /* ManageUnitViewController.swift */,
+				47EF3A4523AB3C7C00B13F9B /* ManageUsersViewController.swift */,
+				47EF3A5023AB3C7D00B13F9B /* OutOfStockViewController.swift */,
+				47EF3A6F23AB3C8000B13F9B /* PaidCustomerViewController.swift */,
+				47EF3A5223AB3C7D00B13F9B /* ProductWiseSalesReportViewController.swift */,
+				47EF3A6123AB3C7F00B13F9B /* ProductWiseStockReportViewController.swift */,
+				47EF3A5123AB3C7D00B13F9B /* PurchaseReportViewController.swift */,
+				47EF3A5A23AB3C7E00B13F9B /* RecentInvoiceViewController.swift */,
+				47EF3A4023AB3C7C00B13F9B /* RoleListViewController.swift */,
+				47EF3A4723AB3C7C00B13F9B /* SceneDelegate.swift */,
+				47EF3A3A23AB3C7B00B13F9B /* ShippingCostReportViewController.swift */,
+				47EF3A5523AB3C7E00B13F9B /* SignUpViewController.swift */,
+				47EF3A6923AB3C7F00B13F9B /* SlideMenuSubListsViewController.swift */,
+				47EF3A7423AB3C8000B13F9B /* StockReportViewController.swift */,
+				47EF3A6823AB3C7F00B13F9B /* StockReturnViewController.swift */,
+				47EF3A5323AB3C7D00B13F9B /* StringExtention.swift */,
+				47EF3A3723AB3C7B00B13F9B /* SupplierReturnListViewController.swift */,
+				47EF3A6623AB3C7F00B13F9B /* SupplierwiseStockReportViewController.swift */,
+				47EF3A4423AB3C7C00B13F9B /* TodaysCustomerReportViewController.swift */,
+				47EF3A6223AB3C7F00B13F9B /* TodaysReportViewController.swift */,
+				47EF3A4223AB3C7C00B13F9B /* UpdateProfileViewController.swift */,
+				47EF3A5423AB3C7E00B13F9B /* UpdateSttingsViewController.swift */,
+				47EF3A7023AB3C8000B13F9B /* UserAssignRoleViewController.swift */,
+				47EF3A7123AB3C8000B13F9B /* ViewController.swift */,
+				47EF3A5B23AB3C7E00B13F9B /* WastageReturnListViewController.swift */,
+				47FA97B323AE3E0E007AC34F /* SuccessViewController.swift */,
+				47EF3A2523AB31C200B13F9B /* Assets.xcassets */,
+				47EF3A2723AB31C200B13F9B /* LaunchScreen.storyboard */,
+				47EF3A2A23AB31C200B13F9B /* Info.plist */,
+				47EF3A2223AB31BD00B13F9B /* AyerERP.xcdatamodeld */,
+			);
+			path = AyerERP;
+			sourceTree = "<group>";
+		};
+		4F7525B607F1E6749C0963BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36C63FEB0A0A0F0E22E74E0C /* Pods_AyerERP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEC4E27B93412952727A8B01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E105FB6C3A36E22F5D4947CC /* Pods-AyerERP.debug.xcconfig */,
+				1AC05CFF37EA32107237ADA4 /* Pods-AyerERP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47EF3A1523AB31BC00B13F9B /* AyerERP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47EF3A2D23AB31C200B13F9B /* Build configuration list for PBXNativeTarget "AyerERP" */;
+			buildPhases = (
+				3CBBA17325A52DA3EB053A38 /* [CP] Check Pods Manifest.lock */,
+				47EF3A1223AB31BC00B13F9B /* Sources */,
+				47EF3A1323AB31BC00B13F9B /* Frameworks */,
+				47EF3A1423AB31BC00B13F9B /* Resources */,
+				0DD8191EDE435FC903BE6F43 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AyerERP;
+			productName = AyerERP;
+			productReference = 47EF3A1623AB31BC00B13F9B /* AyerERP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47EF3A0E23AB31BC00B13F9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Lancius;
+				TargetAttributes = {
+					47EF3A1523AB31BC00B13F9B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 47EF3A1123AB31BC00B13F9B /* Build configuration list for PBXProject "AyerERP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47EF3A0D23AB31BC00B13F9B;
+			productRefGroup = 47EF3A1723AB31BC00B13F9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47EF3A1523AB31BC00B13F9B /* AyerERP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47EF3A1423AB31BC00B13F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EF3A2923AB31C200B13F9B /* LaunchScreen.storyboard in Resources */,
+				47EF3A2623AB31C200B13F9B /* Assets.xcassets in Resources */,
+				47EF3A2123AB31BD00B13F9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DD8191EDE435FC903BE6F43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AyerERP/Pods-AyerERP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AyerERP/Pods-AyerERP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AyerERP/Pods-AyerERP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CBBA17325A52DA3EB053A38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AyerERP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47EF3A1223AB31BC00B13F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EF3ABD23AB3C8100B13F9B /* ClosingAccountViewController.swift in Sources */,
+				47EF3A9223AB3C8100B13F9B /* ForCoreDataMethods.swift in Sources */,
+				47EF3AAD23AB3C8100B13F9B /* SupplierwiseStockReportViewController.swift in Sources */,
+				47EF3A9723AB3C8100B13F9B /* OutOfStockViewController.swift in Sources */,
+				47EF3AAC23AB3C8100B13F9B /* HomeViewController.swift in Sources */,
+				47EF3A2423AB31BD00B13F9B /* AyerERP.xcdatamodeld in Sources */,
+				47EF3A7D23AB3C8100B13F9B /* ManageCustomerViewController.swift in Sources */,
+				47EF3A8023AB3C8100B13F9B /* ActionButton.swift in Sources */,
+				47EF3A8923AB3C8100B13F9B /* UpdateProfileViewController.swift in Sources */,
+				47FA97B423AE3E10007AC34F /* SuccessViewController.swift in Sources */,
+				47EF3A7B23AB3C8100B13F9B /* ManageUnitViewController.swift in Sources */,
+				47EF3ABC23AB3C8100B13F9B /* MainHomeViewController.swift in Sources */,
+				47EF3A9A23AB3C8100B13F9B /* StringExtention.swift in Sources */,
+				47EF3A9C23AB3C8100B13F9B /* SignUpViewController.swift in Sources */,
+				47EF3ABA23AB3C8100B13F9B /* ManageActiveCustomerViewController.swift in Sources */,
+				47EF3A8C23AB3C8100B13F9B /* ManageUsersViewController.swift in Sources */,
+				47EF3AB523AB3C8100B13F9B /* CustomerSupportViewController.swift in Sources */,
+				47EF3A7E23AB3C8100B13F9B /* SupplierReturnListViewController.swift in Sources */,
+				47EF3A8523AB3C8100B13F9B /* ManageTaxViewController.swift in Sources */,
+				47EF3AA823AB3C8100B13F9B /* ProductWiseStockReportViewController.swift in Sources */,
+				47EF3A9323AB3C8100B13F9B /* ChangePasswordViewController.swift in Sources */,
+				47EF3A8423AB3C8100B13F9B /* CheckInternet.swift in Sources */,
+				47EF3A9023AB3C8100B13F9B /* ClosingReportViewController.swift in Sources */,
+				47EF3A9923AB3C8100B13F9B /* ProductWiseSalesReportViewController.swift in Sources */,
+				47EF3A8323AB3C8100B13F9B /* categoryWisePurchaseReportViewController.swift in Sources */,
+				47EF3A7A23AB3C8100B13F9B /* CustomerManageCategoryViewController.swift in Sources */,
+				47EF3A9523AB3C8100B13F9B /* CustomerManageOrderViewController.swift in Sources */,
+				47EF3AA023AB3C8100B13F9B /* ForWebViewController.swift in Sources */,
+				47EF3AB223AB3C8100B13F9B /* ManageInvoiceViewController.swift in Sources */,
+				47EF3A8E23AB3C8100B13F9B /* SceneDelegate.swift in Sources */,
+				47EF3AB723AB3C8100B13F9B /* UserAssignRoleViewController.swift in Sources */,
+				47EF3AB923AB3C8100B13F9B /* CreditCustomerViewController.swift in Sources */,
+				47EF3A8223AB3C8100B13F9B /* CheckOutViewController.swift in Sources */,
+				47EF3A8F23AB3C8100B13F9B /* DueReportViewController.swift in Sources */,
+				47EF3A9F23AB3C8100B13F9B /* ActionButtonItem.swift in Sources */,
+				47EF3AB823AB3C8100B13F9B /* ViewController.swift in Sources */,
+				47EF3A9E23AB3C8100B13F9B /* CustomerLedgerViewController.swift in Sources */,
+				47EF3A7923AB3C8100B13F9B /* CustomerManageProductViewController.swift in Sources */,
+				47EF3ABF23AB3C8100B13F9B /* ManageSupplierViewController.swift in Sources */,
+				47EF3AA223AB3C8100B13F9B /* WastageReturnListViewController.swift in Sources */,
+				47EF3A9823AB3C8100B13F9B /* PurchaseReportViewController.swift in Sources */,
+				47EF3A9623AB3C8100B13F9B /* CustomerHomeViewController.swift in Sources */,
+				47EF3A8123AB3C8100B13F9B /* ShippingCostReportViewController.swift in Sources */,
+				47EF3AA623AB3C8100B13F9B /* SalesReportViewController.swift in Sources */,
+				47EF3AA423AB3C8100B13F9B /* InventoryLedgerViewController.swift in Sources */,
+				47EF3AB423AB3C8100B13F9B /* ManageMessagesViewController.swift in Sources */,
+				47EF3A9423AB3C8100B13F9B /* CashBookViewController.swift in Sources */,
+				47EF3AA323AB3C8100B13F9B /* AddCategoryViewController.swift in Sources */,
+				47EF3A8D23AB3C8100B13F9B /* AddUsersViewController.swift in Sources */,
+				47EF3AB123AB3C8100B13F9B /* CategoryWiseSalesReportViewController.swift in Sources */,
+				47EF3A9D23AB3C8100B13F9B /* ManageNewApplicationViewController.swift in Sources */,
+				47EF3AA923AB3C8100B13F9B /* TodaysReportViewController.swift in Sources */,
+				47EF3A7C23AB3C8100B13F9B /* ManageInactiveCustomerViewController.swift in Sources */,
+				47EF3AB323AB3C8100B13F9B /* MainScrollViewController.swift in Sources */,
+				47EF3AB023AB3C8100B13F9B /* SlideMenuSubListsViewController.swift in Sources */,
+				47EF3A1A23AB31BD00B13F9B /* AppDelegate.swift in Sources */,
+				47EF3AAB23AB3C8100B13F9B /* CustomerInformationViewController.swift in Sources */,
+				47EF3AAE23AB3C8100B13F9B /* CustomerManageMessageViewController.swift in Sources */,
+				47EF3AAF23AB3C8100B13F9B /* StockReturnViewController.swift in Sources */,
+				47EF3AA523AB3C8100B13F9B /* LoginViewController.swift in Sources */,
+				47EF3ABB23AB3C8100B13F9B /* StockReportViewController.swift in Sources */,
+				47EF3ABE23AB3C8100B13F9B /* ManageCategoryViewController.swift in Sources */,
+				47EF3A9B23AB3C8100B13F9B /* UpdateSttingsViewController.swift in Sources */,
+				47EF3A7F23AB3C8100B13F9B /* ManageCustomerUpdateApplicantsViewController.swift in Sources */,
+				47EF3AB623AB3C8100B13F9B /* PaidCustomerViewController.swift in Sources */,
+				47EF3A8723AB3C8100B13F9B /* RoleListViewController.swift in Sources */,
+				47EF3A8623AB3C8100B13F9B /* CustomerManageCartVC.swift in Sources */,
+				47EF3A9123AB3C8100B13F9B /* CustomerReceiveViewController.swift in Sources */,
+				47EF3A8B23AB3C8100B13F9B /* TodaysCustomerReportViewController.swift in Sources */,
+				47EF3A8A23AB3C8100B13F9B /* ManageQuotationViewController.swift in Sources */,
+				47EF3AA723AB3C8100B13F9B /* ManagePurchaseViewController.swift in Sources */,
+				47EF3AAA23AB3C8100B13F9B /* ManageProductViewController.swift in Sources */,
+				47EF3AA123AB3C8100B13F9B /* RecentInvoiceViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47EF3A1F23AB31BD00B13F9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47EF3A2023AB31BD00B13F9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47EF3A2723AB31C200B13F9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47EF3A2823AB31C200B13F9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47EF3A2B23AB31C200B13F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47EF3A2C23AB31C200B13F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47EF3A2E23AB31C200B13F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E105FB6C3A36E22F5D4947CC /* Pods-AyerERP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8CQPHC2A3;
+				INFOPLIST_FILE = AyerERP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lancius.AyerERP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		47EF3A2F23AB31C200B13F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC05CFF37EA32107237ADA4 /* Pods-AyerERP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8CQPHC2A3;
+				INFOPLIST_FILE = AyerERP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lancius.AyerERP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47EF3A1123AB31BC00B13F9B /* Build configuration list for PBXProject "AyerERP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EF3A2B23AB31C200B13F9B /* Debug */,
+				47EF3A2C23AB31C200B13F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47EF3A2D23AB31C200B13F9B /* Build configuration list for PBXNativeTarget "AyerERP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47EF3A2E23AB31C200B13F9B /* Debug */,
+				47EF3A2F23AB31C200B13F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47EF3A2223AB31BD00B13F9B /* AyerERP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47EF3A2323AB31BD00B13F9B /* AyerERP.xcdatamodel */,
+			);
+			currentVersion = 47EF3A2323AB31BD00B13F9B /* AyerERP.xcdatamodel */;
+			path = AyerERP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47EF3A0E23AB31BC00B13F9B /* Project object */;
+}
